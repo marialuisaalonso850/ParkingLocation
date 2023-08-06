@@ -1,0 +1,112 @@
+:root {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  background-color: rgb(0, 0, 0);
+  color: #fff
+}
+
+label {
+  display: block;
+}
+
+.form {
+  width: 400px;
+  margin: 0 auto;
+}
+
+input[type="text"],
+[type="password"] ,
+input[type="email"] {
+  display: block;
+  padding: 10px;
+  box-sizing: border-box;
+  width: 100%;
+  margin: 5px 0 10px 0;
+  background-color: #0000005e;
+  border: 4px solid #35ee4eb6 ;
+  color:#fff;
+  
+}
+
+input[type="button"],
+button {
+  background-color: #45cf4c42;
+  padding: 10px;
+  border: 0;
+  min-width: 100px;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+}
+
+input[type="button"],
+button:hover{
+  background-color: rgba(32, 201, 88, 0.527);
+  transition: 2s;
+  border: 2px solid #a9444288;
+}
+
+nav {
+  background-color: #45cf4c42;
+  align-items: center;
+}
+nav ul li:hover{
+  border-bottom: 2px solid #dbbe1788;
+}
+
+nav ul {
+  margin: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  padding: 10px;
+}
+
+a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.dashboard {
+  width: 500px;
+  margin: auto;
+}
+
+.errorMessage {
+  background-color: #ffffff;
+  color: #a94442;
+  padding: 10px;
+}
+
+.container{
+  display: flex;
+  align-items: center;
+}
+
+.ig img{
+  width: 430px;
+  height: 550px;
+  padding: 10px 120px;
+}
+.user{
+  width: 80px;
+  height: 80px;
+}
+.Rrr{
+  text-align: center;
+  align-items: center;
+  font-size: 26px;
+  padding: 20px;
+}
+
+.arreglo{
+  width: 45%;
+} 

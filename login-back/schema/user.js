@@ -10,6 +10,7 @@ const UserSchema = new Mongoose.Schema({
     email: { type: String, required: true, unique: true }, // Cambio a "email"
     password: { type: String, required: true },
     name: { type: String, required: true },
+    roles: { type: String, require: true }
 });
 
 UserSchema.pre("save", function (next) {
